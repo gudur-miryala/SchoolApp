@@ -1,0 +1,18 @@
+//
+//  commentView.swift
+//  SchoolApp
+//
+//  Created by Priyanka Miryala on 2/28/24.
+//
+
+import Foundation
+
+/*
+"dbn": "02M260",
+    "school_name": "Clinton School Writers & Artists, M.S. 260",
+*/
+
+struct commentView: Codable, Identifiable {
+    var dbn: Int?
+    var school_name: String?
+}
